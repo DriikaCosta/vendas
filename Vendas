@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    alert('Seja Bem Vindo ao Sistema de Vendas');
+    let numeroDeVendas = 50;
+    let usuario
+
+    usuario = prompt('Digite o seu usuário:');
+    numeroDeVendas = prompt('Digite a quantidade de produtos vendidos');
+
+    if (numeroDeVendas >= 50){
+      alert('Parabéns! Você bateu a META MENSAL!');
+    }else{
+      alert('Huuumm! Não foi dessa vez!');
+    }
+
+    </script>
+</body>
+</html>
